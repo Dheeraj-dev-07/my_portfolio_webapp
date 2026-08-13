@@ -1,0 +1,89 @@
+[
+  {
+    "role": "Java Full Stack Developer Intern",
+    "company": "Augment Infotech",
+    "location": "Indore, India",
+    "period": "Apr 2026 – Jul 2026",
+    "startDate": "Apr 2026",
+    "endDate": "Jul 2026",
+    "responsibilities": [
+      "Contributing to enterprise-grade full-stack applications using Java, Spring Boot, React.js, MySQL, and REST APIs in an Agile development environment.",
+      "Developed and maintained backend modules following the MVC architecture, implementing secure authentication, authorization, and RESTful APIs using Spring Boot and Spring Security.",
+      "Collaborated with frontend and backend teams to build scalable, production-ready features, perform bug fixes, and support application deployments."
+    ],
+    "bullets": [
+      "Contributing to enterprise-grade full-stack applications using Java, Spring Boot, React.js, MySQL, and REST APIs in an Agile development environment.",
+      "Developed and maintained backend modules following the MVC architecture, implementing secure authentication, authorization, and RESTful APIs using Spring Boot and Spring Security.",
+      "Collaborated with frontend and backend teams to build scalable, production-ready features, perform bug fixes, and support application deployments."
+    ],
+    "sub_projects": [
+      {
+        "name": "LeadFlow CRM – Lead Management System",
+        "tech_stack": ["Java", "Spring Boot", "Spring Security", "React.js"],
+        "techStack": ["Java", "Spring Boot", "Spring Security", "React.js"],
+        "highlights": [
+          "Developed the Authentication and Authorization module using Spring Boot, implementing secure login and role-based access control.",
+          "Designed RESTful APIs following the MVC architecture and integrated them with the React frontend.",
+          "Collaborated with the backend team to implement production-ready authentication workflows and improve application security."
+        ],
+        "bullets": [
+          "Developed the Authentication and Authorization module using Spring Boot, implementing secure login and role-based access control.",
+          "Designed RESTful APIs following the MVC architecture and integrated them with the React frontend.",
+          "Collaborated with the backend team to implement production-ready authentication workflows and improve application security."
+        ]
+      },
+      {
+        "name": "Property Management System (PMS)",
+        "tech_stack": ["React.js", "JavaScript", "REST APIs"],
+        "techStack": ["React.js", "JavaScript", "REST APIs"],
+        "highlights": [
+          "Worked with the frontend team on a live enterprise Property Management System (PMS) to develop and maintain user-facing modules.",
+          "Built responsive UI components, integrated REST APIs, and resolved frontend issues to improve usability and performance.",
+          "Supported feature development, testing, and cross-functional collaboration to ensure timely delivery of production releases."
+        ],
+        "bullets": [
+          "Worked with the frontend team on a live enterprise Property Management System (PMS) to develop and maintain user-facing modules.",
+          "Built responsive UI components, integrated REST APIs, and resolved frontend issues to improve usability and performance.",
+          "Supported feature development, testing, and cross-functional collaboration to ensure timely delivery of production releases."
+        ]
+      }
+    ]
+  },
+  {
+    "role": "Java Developer Trainee",
+    "company": "HulkHire Tech",
+    "location": "Hyderabad, India",
+    "period": "4 Aug 2025 – 27 Sep 2025",
+    "startDate": "4 Aug 2025",
+    "endDate": "27 Sep 2025",
+    "responsibilities": [
+      "Built a secure and scalable Stripe Payment Integration System using Java Spring Boot in a microservices architecture."
+    ],
+    "bullets": [
+      "Built a secure and scalable Stripe Payment Integration System using Java Spring Boot in a microservices architecture."
+    ],
+    "sub_projects": [
+      {
+        "name": "Stripe Payment Integration System",
+        "tech_stack": ["Java", "Spring Boot", "Microservices", "Stripe API"],
+        "techStack": ["Java", "Spring Boot", "Microservices", "Stripe API"],
+        "highlights": [
+          "Developed a secure and scalable Stripe Payment Integration System using Java Spring Boot in a microservices architecture.",
+          "Implemented modular payment-processing and stripe-provider services and integrated Stripe PSP APIs including Create Session, Retrieve Session, and Expire Session.",
+          "Implemented security using Stripe Basic Authentication and HmacSHA256 for secure webhook notification processing.",
+          "Developed payment status tracking to ensure reliable payment processing and transaction consistency.",
+          "Designed custom error codes and applied Spring exception handling for robust error management.",
+          "Processed Stripe webhook events and followed RESTful API standards while collaborating with the team on the end-to-end integration workflow."
+        ],
+        "bullets": [
+          "Developed a secure and scalable Stripe Payment Integration System using Java Spring Boot in a microservices architecture.",
+          "Implemented modular payment-processing and stripe-provider services and integrated Stripe PSP APIs including Create Session, Retrieve Session, and Expire Session.",
+          "Implemented security using Stripe Basic Authentication and HmacSHA256 for secure webhook notification processing.",
+          "Developed payment status tracking to ensure reliable payment processing and transaction consistency.",
+          "Designed custom error codes and applied Spring exception handling for robust error management.",
+          "Processed Stripe webhook events and followed RESTful API standards while collaborating with the team on the end-to-end integration workflow."
+        ]
+      }
+    ]
+  }
+]

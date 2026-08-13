@@ -1,0 +1,9 @@
+{
+  "Languages & Frameworks": ["Java", "J2EE", "Spring Boot", "Spring Security", "Spring AI", "Python", "FastAPI (basic)", "React.js", "JavaScript"],
+  "Architecture": ["MVC", "Microservices Architecture", "RESTful APIs"],
+  "Data": ["MySQL", "JDBC", "Hibernate (JPA)"],
+  "DevOps & Cloud": ["Docker", "Kubernetes", "CI/CD", "Terraform", "AWS"],
+  "Tools": ["Antigravity IDE", "IntelliJ IDEA", "VS Code", "Git", "GitHub", "Postman", "Jira"],
+  "Practices": ["Object-Oriented Programming", "Agile/Scrum"],
+  "Soft Skills": ["Decision Making", "Time Management", "Cross-functional Collaboration", "Adaptability"]
+}

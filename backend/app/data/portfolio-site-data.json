@@ -1,0 +1,148 @@
+{
+  "profile": {
+    "name": "Dheeraj Sisodiya",
+    "title": "Java Full Stack Developer",
+    "location": "Vijay Nagar, Indore, Central India",
+    "phone": "+91-7415484636",
+    "email": "dheerajsisodiya2226@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/dheerajS05",
+    "github": "https://github.com/Dheeraj-dev-07?tab=repositories",
+    "objective": "Java Full Stack Developer with hands-on internship experience building secure, production-ready applications using Java, Spring Boot, Spring Security, REST APIs, and MySQL. Skilled in authentication, authorization, and scalable backend design, with growing expertise in DevOps and AI technologies. Seeking to contribute to innovative engineering teams while continuing to grow as a full-stack developer.",
+    "openForOpportunities": true
+  },
+
+  "skills": {
+    "Languages & Frameworks": ["Java", "J2EE", "Spring Boot", "Spring Security", "Spring AI", "Python", "FastAPI (basic)", "React.js", "JavaScript"],
+    "Architecture": ["MVC", "Microservices Architecture", "RESTful APIs"],
+    "Data": ["MySQL", "JDBC", "Hibernate (JPA)"],
+    "DevOps & Cloud": ["Docker", "Kubernetes", "CI/CD", "Terraform", "AWS"],
+    "Tools": ["Antigravity IDE", "IntelliJ IDEA", "VS Code", "Git", "GitHub", "Postman", "Jira"],
+    "Practices": ["Object-Oriented Programming", "Agile/Scrum"],
+    "Soft Skills": ["Decision Making", "Time Management", "Cross-functional Collaboration", "Adaptability"]
+  },
+
+  "experience": [
+    {
+      "role": "Java Full Stack Developer Intern",
+      "company": "Augment Infotech",
+      "location": "Indore, India",
+      "startDate": "Apr 2026",
+      "endDate": "Jul 2026",
+      "bullets": [
+        "Contributing to enterprise-grade full-stack applications using Java, Spring Boot, React.js, MySQL, and REST APIs in an Agile development environment.",
+        "Developed and maintained backend modules following the MVC architecture, implementing secure authentication, authorization, and RESTful APIs using Spring Boot and Spring Security.",
+        "Collaborated with frontend and backend teams to build scalable, production-ready features, perform bug fixes, and support application deployments."
+      ],
+      "subProjects": [
+        {
+          "name": "LeadFlow CRM – Lead Management System",
+          "techStack": ["Java", "Spring Boot", "Spring Security", "React.js"],
+          "bullets": [
+            "Developed the Authentication and Authorization module using Spring Boot, implementing secure login and role-based access control.",
+            "Designed RESTful APIs following the MVC architecture and integrated them with the React frontend.",
+            "Collaborated with the backend team to implement production-ready authentication workflows and improve application security."
+          ]
+        },
+        {
+          "name": "Property Management System (PMS)",
+          "techStack": ["React.js", "JavaScript", "REST APIs"],
+          "bullets": [
+            "Worked with the frontend team on a live enterprise Property Management System (PMS) to develop and maintain user-facing modules.",
+            "Built responsive UI components, integrated REST APIs, and resolved frontend issues to improve usability and performance.",
+            "Supported feature development, testing, and cross-functional collaboration to ensure timely delivery of production releases."
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Java Developer Trainee",
+      "company": "HulkHire Tech",
+      "location": "Hyderabad, India",
+      "startDate": "4 Aug 2025",
+      "endDate": "27 Sep 2025",
+      "bullets": [
+        "Built a secure and scalable Stripe Payment Integration System using Java Spring Boot in a microservices architecture."
+      ],
+      "subProjects": [
+        {
+          "name": "Stripe Payment Integration System",
+          "techStack": ["Java", "Spring Boot", "Microservices", "Stripe API"],
+          "bullets": [
+            "Developed a secure and scalable Stripe Payment Integration System using Java Spring Boot in a microservices architecture.",
+            "Implemented modular payment-processing and stripe-provider services and integrated Stripe PSP APIs including Create Session, Retrieve Session, and Expire Session.",
+            "Implemented security using Stripe Basic Authentication and HmacSHA256 for secure webhook notification processing.",
+            "Developed payment status tracking to ensure reliable payment processing and transaction consistency.",
+            "Designed custom error codes and applied Spring exception handling for robust error management.",
+            "Processed Stripe webhook events and followed RESTful API standards while collaborating with the team on the end-to-end integration workflow."
+          ]
+        }
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science and Engineering",
+      "institution": "Sri Aurobindo Institute of Technology, Indore (RGPV)",
+      "startYear": "2022",
+      "endYear": "2026",
+      "detail": "CGPA: 6.6/10"
+    },
+    {
+      "degree": "Class 12th – PCM",
+      "institution": "Madhya Pradesh Board",
+      "endYear": "2022"
+    },
+    {
+      "degree": "Class 10th",
+      "institution": "Madhya Pradesh Board",
+      "endYear": "2020"
+    }
+  ],
+
+  "certifications": [
+    {
+      "name": "Neo4j Certified Professional",
+      "issuer": "Neo4j",
+      "url": "https://graphacademy.neo4j.com/c/bf136275-1e58-4fe4-80ce-f7534a70980e/"
+    },
+    {
+      "name": "Walmart USA — Advanced Software Engineering",
+      "issuer": "Walmart / Forage",
+      "url": "https://www.theforage.com/completion-certificates/prBZoAihniNijyD6d/oX6f9BbCL9kJDJzfg_prBZoAihniNijyD6d_6a703800a220bc3003ad72d7_1785751064478_completion_certificate.pdf"
+    },
+    {
+      "name": "Infosys Springboard — Java Foundation",
+      "issuer": "Infosys Springboard",
+      "url": "https://drive.google.com/file/d/155Osr1-2Fr7E8QkYPQeg697fpWIsvElW/view?usp=drive_link"
+    },
+    {
+      "name": "HulkHire Tech — Internship Completion Letter",
+      "issuer": "HulkHire Tech",
+      "url": "https://drive.google.com/file/d/1dr5PgehNFVTkp6y87Fc7cn-wRPtiBAJM/view?usp=drive_link"
+    },
+    {
+      "name": "Google Cloud — Cloud Computing Foundation",
+      "issuer": "Google Cloud",
+      "url": "https://drive.google.com/file/d/1BPNEGAnf9C4-M4dUXB6wROl5LCSEjU2H/view?usp=drive_link"
+    },
+    {
+      "name": "CII — Volunteer Participation Certificate",
+      "issuer": "Confederation of Indian Industry",
+      "url": "https://drive.google.com/file/d/1nLbqCULrHtP4klS1NE7t3ZZrziyeU5yB/view?usp=drive_link"
+    },
+    {
+      "name": "TCS — National Qualifier Test",
+      "issuer": "Tata Consultancy Services",
+      "url": "https://www.tcsion.com/iDH/user/Dheeraj_Sisodiya_XO2IGG11566756?Profile=Public"
+    }
+  ],
+
+  "achievements": [
+    {
+      "title": "TieCon MP 2025 Volunteer",
+      "description": "Volunteered at TieCon MP 2025, managing the registration process for investors and delegates and ensuring smooth event coordination.",
+      "url": "https://drive.google.com/file/d/1j1NhZEMvYHxHSat2jSDDHih247QIw48m/view?usp=drive_link"
+    }
+  ]
+}

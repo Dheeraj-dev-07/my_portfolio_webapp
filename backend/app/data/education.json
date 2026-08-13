@@ -1,0 +1,27 @@
+[
+  {
+    "degree": "B.Tech in Computer Science and Engineering",
+    "institution": "Sri Aurobindo Institute of Technology, Indore (RGPV)",
+    "period": "2022–2026",
+    "startYear": "2022",
+    "endYear": "2026",
+    "score": "CGPA: 6.6/10",
+    "detail": "CGPA: 6.6/10"
+  },
+  {
+    "degree": "Class 12th – PCM",
+    "institution": "Madhya Pradesh Board of Secondary Education (MPBSE)",
+    "period": "2022",
+    "endYear": "2022",
+    "score": "Higher Secondary — Science Stream",
+    "detail": "Higher Secondary — Science Stream"
+  },
+  {
+    "degree": "Class 10th",
+    "institution": "Madhya Pradesh Board of Secondary Education (MPBSE)",
+    "period": "2020",
+    "endYear": "2020",
+    "score": "Secondary Certificate — General",
+    "detail": "Secondary Certificate — General"
+  }
+]
