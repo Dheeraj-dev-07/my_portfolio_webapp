@@ -202,15 +202,15 @@ export default function HeroSection({ profile, onOpenResumeModal }: HeroSectionP
           </div>
 
           {/* Right Column — Headshot Portrait & Floating Stat Cards */}
-          <div className="lg:col-span-5 flex justify-center lg:justify-end my-4 lg:my-0">
+          <div className="lg:col-span-5 flex justify-center lg:justify-end my-6 lg:my-0">
             <motion.div
               initial={{ opacity: 0, scale: 0.9, rotate: -2 }}
               animate={{ opacity: 1, scale: 1, rotate: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="relative group p-4 sm:p-6"
+              className="relative group p-6 sm:p-8"
             >
               {/* Gradient Glowing Ring Frame */}
-              <div className="absolute inset-2 bg-gradient-to-r from-brand-500 via-cyan-500 to-indigo-500 rounded-full blur-lg opacity-75 group-hover:opacity-100 transition duration-500 group-hover:scale-105" />
+              <div className="absolute inset-4 bg-gradient-to-r from-brand-500 via-cyan-500 to-indigo-500 rounded-full blur-xl opacity-75 group-hover:opacity-100 transition duration-500 group-hover:scale-105" />
 
               {/* Tight Circular Image Container */}
               <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800 bg-slate-900 shrink-0">
@@ -224,12 +224,12 @@ export default function HeroSection({ profile, onOpenResumeModal }: HeroSectionP
                 />
               </div>
 
-              {/* Floating Stat Card Top Right */}
+              {/* Floating Stat Card 1 — Top Right */}
               <motion.div
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, x: 20, y: -10 }}
+                animate={{ opacity: 1, x: 0, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="absolute -top-1 -right-2 sm:-right-6 flex items-center gap-2.5 px-3.5 py-2.5 rounded-2xl bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl border border-slate-200/90 dark:border-slate-700/80 shadow-2xl z-20"
+                className="absolute top-2 -right-3 sm:-right-8 flex items-center gap-2.5 px-3.5 py-2.5 rounded-2xl bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl border border-slate-200/90 dark:border-slate-700/80 shadow-2xl z-20"
               >
                 <div className="p-2 rounded-xl bg-emerald-500/10 text-emerald-500 shrink-0">
                   <Server className="w-4 h-4" />
@@ -240,12 +240,12 @@ export default function HeroSection({ profile, onOpenResumeModal }: HeroSectionP
                 </div>
               </motion.div>
 
-              {/* Floating Stat Card Bottom Left */}
+              {/* Floating Stat Card 2 — Bottom Left */}
               <motion.div
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, x: -20, y: 10 }}
+                animate={{ opacity: 1, x: 0, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.6 }}
-                className="absolute -bottom-1 -left-2 sm:-left-6 flex items-center gap-2.5 px-3.5 py-2.5 rounded-2xl bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl border border-slate-200/90 dark:border-slate-700/80 shadow-2xl z-20"
+                className="absolute bottom-8 -left-3 sm:-left-8 flex items-center gap-2.5 px-3.5 py-2.5 rounded-2xl bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl border border-slate-200/90 dark:border-slate-700/80 shadow-2xl z-20"
               >
                 <div className="p-2 rounded-xl bg-brand-500/10 text-brand-500 shrink-0">
                   <Code2 className="w-4 h-4" />
@@ -256,14 +256,14 @@ export default function HeroSection({ profile, onOpenResumeModal }: HeroSectionP
                 </div>
               </motion.div>
 
-              {/* Floating Badge Bottom Right — Specialty */}
+              {/* Floating Badge 3 — Bottom Right */}
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.7 }}
-                className="absolute -bottom-6 right-2 sm:right-6 flex items-center gap-2 px-3 py-2 rounded-xl bg-brand-600 text-white text-xs font-bold shadow-xl z-20 border border-brand-400/30"
+                className="absolute -bottom-2 right-0 sm:right-2 flex items-center gap-2 px-3.5 py-2.5 rounded-xl bg-gradient-to-r from-brand-600 to-indigo-600 text-white text-xs font-bold shadow-2xl z-20 border border-brand-400/40 backdrop-blur-md"
               >
-                <Sparkles className="w-3.5 h-3.5 text-cyan-300" />
+                <Sparkles className="w-3.5 h-3.5 text-cyan-300 animate-pulse" />
                 Java & Spring Specialist
               </motion.div>
             </motion.div>
