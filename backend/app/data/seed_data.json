@@ -1,54 +1,96 @@
 {
+  "seed_version": 2,
   "profile": {
     "name": "Dheeraj Sisodiya",
     "title": "Java Full Stack Developer",
-    "location": "Vijay Nagar, Indore, Central India",
+    "location": "Vijay Nagar, Indore, India",
     "phone": "+91-7415484636",
-    "email": "dheerajsisodiya2226@gmail.com",
+    "email": "dheerajsisodiy1122@gmail.com",
     "linkedin": "https://www.linkedin.com/in/dheerajS05",
     "github": "https://github.com/Dheeraj-dev-07?tab=repositories",
-    "summary": "Java Full Stack Developer with hands-on internship experience building secure, production-ready applications using Java, Spring Boot, Spring Security, REST APIs, and MySQL. Skilled in authentication, authorization, and scalable backend design, with growing expertise in DevOps and AI technologies. Seeking to contribute to innovative engineering teams while continuing to grow as a full-stack developer.",
-    "objective": "Java Full Stack Developer with hands-on internship experience building secure, production-ready applications using Java, Spring Boot, Spring Security, REST APIs, and MySQL. Skilled in authentication, authorization, and scalable backend design, with growing expertise in DevOps and AI technologies. Seeking to contribute to innovative engineering teams while continuing to grow as a full-stack developer.",
-    "openForOpportunities": true
+    "summary": "Java Full Stack Developer with hands-on internship experience building secure, production-ready applications using Java, Spring Boot, Spring Security, REST APIs, and MySQL. Skilled in authentication, authorization, and scalable backend design, with growing expertise in DevOps and AI technologies. Seeking to contribute to an innovative engineering team while continuing to grow as a full-stack developer."
   },
   "skills": {
-    "Languages & Frameworks": ["Java", "J2EE", "Spring Boot", "Spring Security", "Spring AI", "Python", "FastAPI (basic)", "JavaScript"],
-    "Architecture": ["MVC", "Microservices Architecture", "RESTful APIs"],
-    "Data": ["MySQL", "JDBC", "Hibernate (JPA)"],
-    "DevOps & Cloud": ["Docker", "Kubernetes", "CI/CD", "Terraform", "AWS"],
-    "Tools": ["Antigravity IDE", "IntelliJ IDEA", "VS Code", "Git", "GitHub", "Postman", "Jira"],
-    "Practices": ["Object-Oriented Programming", "Agile/Scrum"],
-    "Soft Skills": ["Decision Making", "Time Management", "Cross-functional Collaboration", "Adaptability"]
+    "Frontend": [
+      "JavaScript",
+      "React"
+    ],
+    "Backend": [
+      "Java",
+      "J2EE",
+      "Spring Boot",
+      "Spring Security",
+      "Redis",
+      "Spring AI",
+      "MVC & Microservices",
+      "REST APIs",
+      "MySQL",
+      "JDBC",
+      "Hibernate (JPA)",
+      "Python",
+      "FastAPI (basic)"
+    ],
+    "DevOps": [
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "GitHub Actions",
+      "Terraform",
+      "AWS"
+    ],
+    "Tools": [
+      "Antigravity IDE",
+      "IntelliJ IDEA",
+      "VS Code",
+      "Git",
+      "GitHub",
+      "Postman",
+      "Jira",
+      "Grafana"
+    ],
+    "Concepts": [
+      "Object-Oriented Programming",
+      "Agile/Scrum",
+      "LLMs",
+      "RAG",
+      "Memory",
+      "Vector Databases",
+      "AI Agents",
+      "Tool Calling",
+      "MCP",
+      "Spring AI",
+      "LangChain4J"
+    ],
+    "Soft Skills": [
+      "Decision Making",
+      "Time Management",
+      "Cross-functional Collaboration",
+      "Adaptability"
+    ]
   },
   "experience": [
     {
-      "company": "Augment Infotech",
+      "company": "Augment Infotech Pvt",
       "role": "Java Full Stack Developer Intern",
       "location": "Indore, India",
       "period": "Apr 2026 – Jul 2026",
-      "startDate": "Apr 2026",
-      "endDate": "Jul 2026",
       "responsibilities": [
-        "Contributing to enterprise-grade full-stack applications using Java, Spring Boot, React.js, MySQL, and REST APIs in an Agile development environment.",
-        "Developed and maintained backend modules following the MVC architecture, implementing secure authentication, authorization, and RESTful APIs using Spring Boot and Spring Security.",
-        "Collaborated with frontend and backend teams to build scalable, production-ready features, perform bug fixes, and support application deployments."
-      ],
-      "bullets": [
-        "Contributing to enterprise-grade full-stack applications using Java, Spring Boot, React.js, MySQL, and REST APIs in an Agile development environment.",
-        "Developed and maintained backend modules following the MVC architecture, implementing secure authentication, authorization, and RESTful APIs using Spring Boot and Spring Security.",
-        "Collaborated with frontend and backend teams to build scalable, production-ready features, perform bug fixes, and support application deployments."
+        "Contributed to enterprise-grade full-stack applications using Java, Spring Boot, React.js, MySQL, and REST APIs in an Agile environment.",
+        "Built backend modules following MVC architecture, implementing secure authentication, authorization, and RESTful APIs with Spring Boot and Spring Security (LeadFlow CRM lead-management system).",
+        "Developed responsive UI components and integrated REST APIs for a live enterprise Property Management System (PMS) using React.js, improving usability and performance.",
+        "Collaborated across frontend/backend teams on bug fixes, feature delivery, and production deployments.",
+        "Implemented structured logging (SLF4J/Logback) and global exception handling, collaborating with cross-functional teams on active debugging, issue resolution"
       ],
       "sub_projects": [
         {
-          "name": "LeadFlow CRM – Lead Management System",
-          "tech_stack": ["Java", "Spring Boot", "Spring Security", "React.js"],
-          "techStack": ["Java", "Spring Boot", "Spring Security", "React.js"],
-          "highlights": [
-            "Developed the Authentication and Authorization module using Spring Boot, implementing secure login and role-based access control.",
-            "Designed RESTful APIs following the MVC architecture and integrated them with the React frontend.",
-            "Collaborated with the backend team to implement production-ready authentication workflows and improve application security."
+          "name": "LeadFlow CRM (Lead Management System)",
+          "tech_stack": [
+            "Java",
+            "Spring Boot",
+            "Spring Security",
+            "React.js"
           ],
-          "bullets": [
+          "highlights": [
             "Developed the Authentication and Authorization module using Spring Boot, implementing secure login and role-based access control.",
             "Designed RESTful APIs following the MVC architecture and integrated them with the React frontend.",
             "Collaborated with the backend team to implement production-ready authentication workflows and improve application security."
@@ -56,14 +98,12 @@
         },
         {
           "name": "Property Management System (PMS)",
-          "tech_stack": ["React.js", "JavaScript", "REST APIs"],
-          "techStack": ["React.js", "JavaScript", "REST APIs"],
-          "highlights": [
-            "Worked with the frontend team on a live enterprise Property Management System (PMS) to develop and maintain user-facing modules.",
-            "Built responsive UI components, integrated REST APIs, and resolved frontend issues to improve usability and performance.",
-            "Supported feature development, testing, and cross-functional collaboration to ensure timely delivery of production releases."
+          "tech_stack": [
+            "React.js",
+            "JavaScript",
+            "REST APIs"
           ],
-          "bullets": [
+          "highlights": [
             "Worked with the frontend team on a live enterprise Property Management System (PMS) to develop and maintain user-facing modules.",
             "Built responsive UI components, integrated REST APIs, and resolved frontend issues to improve usability and performance.",
             "Supported feature development, testing, and cross-functional collaboration to ensure timely delivery of production releases."
@@ -75,29 +115,22 @@
       "company": "HulkHire Tech",
       "role": "Java Developer Trainee",
       "location": "Hyderabad, India",
-      "period": "4 Aug 2025 – 27 Sep 2025",
-      "startDate": "4 Aug 2025",
-      "endDate": "27 Sep 2025",
+      "period": "Aug 2025 – Sep 2025",
       "responsibilities": [
-        "Built a secure and scalable Stripe Payment Integration System using Java Spring Boot in a microservices architecture."
-      ],
-      "bullets": [
-        "Built a secure and scalable Stripe Payment Integration System using Java Spring Boot in a microservices architecture."
+        "Built a secure, scalable Stripe Payment Integration System in Java Spring Boot using a microservices architecture with modular payment-processing and stripe-provider services.",
+        "Integrated Stripe PSP APIs (Create/Retrieve/Expire Session) and secured webhook processing with Stripe Basic Authentication and HmacSHA256.",
+        "Implemented payment status tracking, custom error codes, and Spring exception handling for reliable, consistent transaction processing."
       ],
       "sub_projects": [
         {
           "name": "Stripe Payment Integration System",
-          "tech_stack": ["Java", "Spring Boot", "Microservices", "Stripe API"],
-          "techStack": ["Java", "Spring Boot", "Microservices", "Stripe API"],
-          "highlights": [
-            "Developed a secure and scalable Stripe Payment Integration System using Java Spring Boot in a microservices architecture.",
-            "Implemented modular payment-processing and stripe-provider services and integrated Stripe PSP APIs including Create Session, Retrieve Session, and Expire Session.",
-            "Implemented security using Stripe Basic Authentication and HmacSHA256 for secure webhook notification processing.",
-            "Developed payment status tracking to ensure reliable payment processing and transaction consistency.",
-            "Designed custom error codes and applied Spring exception handling for robust error management.",
-            "Processed Stripe webhook events and followed RESTful API standards while collaborating with the team on the end-to-end integration workflow."
+          "tech_stack": [
+            "Java",
+            "Spring Boot",
+            "Microservices",
+            "Stripe API"
           ],
-          "bullets": [
+          "highlights": [
             "Developed a secure and scalable Stripe Payment Integration System using Java Spring Boot in a microservices architecture.",
             "Implemented modular payment-processing and stripe-provider services and integrated Stripe PSP APIs including Create Session, Retrieve Session, and Expire Session.",
             "Implemented security using Stripe Basic Authentication and HmacSHA256 for secure webhook notification processing.",
@@ -113,78 +146,54 @@
     {
       "degree": "B.Tech in Computer Science and Engineering",
       "institution": "Sri Aurobindo Institute of Technology, Indore (RGPV)",
-      "period": "2022–2026",
-      "startYear": "2022",
-      "endYear": "2026",
-      "score": "CGPA: 6.6/10",
-      "detail": "CGPA: 6.6/10"
+      "period": "2022 – 2026",
+      "score": "CGPA: 6.6/10"
     },
     {
       "degree": "Class 12th – PCM",
-      "institution": "Madhya Pradesh Board of Secondary Education (MPBSE)",
+      "institution": "Madhya Pradesh Board",
       "period": "2022",
-      "endYear": "2022",
-      "score": "Higher Secondary — Science Stream",
-      "detail": "Higher Secondary — Science Stream"
+      "score": ""
     },
     {
       "degree": "Class 10th",
-      "institution": "Madhya Pradesh Board of Secondary Education (MPBSE)",
+      "institution": "Madhya Pradesh Board",
       "period": "2020",
-      "endYear": "2020",
-      "score": "Secondary Certificate — General",
-      "detail": "Secondary Certificate — General"
+      "score": ""
     }
   ],
   "certifications": [
     {
-      "title": "Neo4j Certified Professional",
-      "name": "Neo4j Certified Professional",
-      "issuer": "Neo4j",
-      "url": "https://graphacademy.neo4j.com/c/bf136275-1e58-4fe4-80ce-f7534a70980e/"
-    },
-    {
-      "title": "Walmart USA — Advanced Software Engineering",
-      "name": "Walmart USA — Advanced Software Engineering",
-      "issuer": "Walmart / Forage",
-      "url": "https://www.theforage.com/completion-certificates/prBZoAihniNijyD6d/oX6f9BbCL9kJDJzfg_prBZoAihniNijyD6d_6a703800a220bc3003ad72d7_1785751064478_completion_certificate.pdf"
-    },
-    {
-      "title": "Infosys Springboard — Java Foundation",
-      "name": "Infosys Springboard — Java Foundation",
+      "title": "Infosys Springboard – Java Foundation",
       "issuer": "Infosys Springboard",
       "url": "https://drive.google.com/file/d/155Osr1-2Fr7E8QkYPQeg697fpWIsvElW/view?usp=drive_link"
     },
     {
-      "title": "HulkHire Tech — Internship Completion Letter",
-      "name": "HulkHire Tech — Internship Completion Letter",
-      "issuer": "HulkHire Tech",
-      "url": "https://drive.google.com/file/d/1dr5PgehNFVTkp6y87Fc7cn-wRPtiBAJM/view?usp=drive_link"
-    },
-    {
-      "title": "Google Cloud — Cloud Computing Foundation",
-      "name": "Google Cloud — Cloud Computing Foundation",
+      "title": "Google Cloud – Cloud Computing Foundation",
       "issuer": "Google Cloud",
       "url": "https://drive.google.com/file/d/1BPNEGAnf9C4-M4dUXB6wROl5LCSEjU2H/view?usp=drive_link"
     },
     {
-      "title": "CII — Volunteer Participation Certificate",
-      "name": "CII — Volunteer Participation Certificate",
-      "issuer": "Confederation of Indian Industry",
-      "url": "https://drive.google.com/file/d/1nLbqCULrHtP4klS1NE7t3ZZrziyeU5yB/view?usp=drive_link"
+      "title": "Neo4j Certified Professional",
+      "issuer": "Neo4j",
+      "url": "https://graphacademy.neo4j.com/c/bf136275-1e58-4fe4-80ce-f7534a70980e/"
     },
     {
-      "title": "TCS — National Qualifier Test",
-      "name": "TCS — National Qualifier Test",
-      "issuer": "Tata Consultancy Services",
-      "url": "https://www.tcsion.com/iDH/user/Dheeraj_Sisodiya_XO2IGG11566756?Profile=Public"
+      "title": "Walmart USA – Advanced Software Engineering",
+      "issuer": "Walmart / Forage",
+      "url": "https://www.theforage.com/completion-certificates/prBZoAihniNijyD6d/oX6f9BbCL9kJDJzfg_prBZoAihniNijyD6d_6a703800a220bc3003ad72d7_1785751064478_completion_certificate.pdf"
+    },
+    {
+      "title": "CII – Volunteer Participation Certificate",
+      "issuer": "Confederation of Indian Industry",
+      "url": "https://drive.google.com/file/d/1nLbqCULrHtP4klS1NE7t3ZZrziyeU5yB/view?usp=drive_link"
     }
   ],
   "achievements": [
     {
       "title": "TieCon MP 2025 Volunteer",
       "description": "Volunteered at TieCon MP 2025, managing the registration process for investors and delegates and ensuring smooth event coordination.",
-      "url": "https://drive.google.com/file/d/1j1NhZEMvYHxHSat2jSDDHih247QIw48m/view?usp=drive_link"
+      "link": "https://drive.google.com/file/d/1j1NhZEMvYHxHSat2jSDDHih247QIw48m/view?usp=drive_link"
     }
   ]
 }

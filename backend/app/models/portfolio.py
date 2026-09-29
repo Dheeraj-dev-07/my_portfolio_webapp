@@ -4,11 +4,11 @@ from pydantic import BaseModel, EmailStr, Field
 class ProfileModel(BaseModel):
     name: str = Field(..., json_schema_extra={"example": "Dheeraj Sisodiya"})
     title: str = Field(..., json_schema_extra={"example": "Java Full Stack Developer"})
-    location: str = Field(..., json_schema_extra={"example": "Vijay Nagar, Indore, Central India"})
+    location: str = Field(..., json_schema_extra={"example": "Vijay Nagar, Indore, India"})
     phone: str = Field(..., json_schema_extra={"example": "+91-7415484636"})
-    email: EmailStr = Field(..., json_schema_extra={"example": "dheerajsisodiya2226@gmail.com"})
-    linkedin: str = Field(..., json_schema_extra={"example": "https://linkedin.com/in/dheeraj-sisodiya"})
-    github: str = Field(..., json_schema_extra={"example": "https://github.com/dheerajsisodiya"})
+    email: EmailStr = Field(..., json_schema_extra={"example": "dheerajsisodiy1122@gmail.com"})
+    linkedin: str = Field(..., json_schema_extra={"example": "https://www.linkedin.com/in/dheerajS05"})
+    github: str = Field(..., json_schema_extra={"example": "https://github.com/Dheeraj-dev-07?tab=repositories"})
     summary: str = Field(..., json_schema_extra={"example": "Java Full Stack Developer..."})
 
 class SubProjectModel(BaseModel):
@@ -38,8 +38,7 @@ class CertificationItemModel(BaseModel):
 class AchievementItemModel(BaseModel):
     title: str
     description: str
-    url: Optional[str] = None
-
+    link: Optional[str] = None
 
 class ContactRequestModel(BaseModel):
     name: str = Field(..., min_length=2, max_length=100)

@@ -40,9 +40,8 @@ export interface CertificationItem {
 export interface AchievementItem {
   title: string;
   description: string;
-  url?: string;
+  link?: string;
 }
-
 
 export type SkillsMap = Record<string, string[]>;
 

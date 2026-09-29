@@ -136,7 +136,7 @@ The candidate data is stored in `backend/app/data/seed_data.json` and mirrored i
 - **Title:** Java Full Stack Developer
 - **Location:** Vijay Nagar, Indore, Central India
 - **Phone:** +91-7415484636
-- **Email:** dheerajsisodiya2226@gmail.com
+- **Email:** dheerajsisodiy1122@gmail.com
 - **LinkedIn:** `https://linkedin.com/in/dheeraj-sisodiya`
 - **GitHub:** `https://github.com/dheerajsisodiya`
 - **Summary:** *"Java Full Stack Developer with hands-on internship experience building secure, production-ready applications using Java, Spring Boot, Spring Security, REST APIs, and MySQL. Skilled in authentication, authorization, and scalable backend design, with growing expertise in DevOps and AI technologies. Seeking to contribute to innovative engineering teams while continuing to grow as a full-stack developer."*
