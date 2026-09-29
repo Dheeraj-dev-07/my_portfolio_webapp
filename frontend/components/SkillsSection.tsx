@@ -132,6 +132,32 @@ export default function SkillsSection({ skills }: SkillsSectionProps) {
                         </span>
                       ))}
                     </div>
+
+                    {category === "DevOps & Cloud" && (
+                      <div className="mt-4 pt-3 border-t border-slate-200/60 dark:border-slate-800/60 flex flex-wrap items-center gap-2">
+                        <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-[11px] font-bold border border-emerald-500/20">
+                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                          CI/CD: Pipeline Passing
+                        </span>
+                        <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-blue-500/10 text-blue-600 dark:text-blue-400 text-[11px] font-bold border border-blue-500/20">
+                          Docker & Pytest Verified
+                        </span>
+                      </div>
+                    )}
+
+                    {category === "Architecture" && (
+                      <div className="mt-4 pt-3 border-t border-slate-200/60 dark:border-slate-800/60 flex items-center justify-between">
+                        <a
+                          href={`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/docs`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 text-xs font-bold text-brand-600 dark:text-brand-400 hover:text-brand-500 transition-colors"
+                        >
+                          <span>Explore Swagger API Specs</span>
+                          <span>→</span>
+                        </a>
+                      </div>
+                    )}
                   </div>
                 </motion.div>
               );

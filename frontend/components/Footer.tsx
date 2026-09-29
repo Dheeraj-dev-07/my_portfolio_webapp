@@ -49,8 +49,17 @@ export default function Footer({ profile }: FooterProps) {
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-slate-200/60 dark:border-slate-800/60 text-center text-xs text-slate-500 dark:text-slate-400">
+        <div className="mt-8 pt-8 border-t border-slate-200/60 dark:border-slate-800/60 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 dark:text-slate-400">
           <p>© {new Date().getFullYear()} Dheeraj Sisodiya. All rights reserved. Built with FastAPI & Next.js.</p>
+          <a
+            href={`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/docs`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 font-bold border border-emerald-500/20 hover:bg-emerald-500/20 transition-colors"
+          >
+            <span>Live API Docs (Swagger UI)</span>
+            <span>→</span>
+          </a>
         </div>
       </div>
     </footer>

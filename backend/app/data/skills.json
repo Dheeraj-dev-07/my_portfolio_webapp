@@ -1,5 +1,5 @@
 {
-  "Languages & Frameworks": ["Java", "J2EE", "Spring Boot", "Spring Security", "Spring AI", "Python", "FastAPI (basic)", "React.js", "JavaScript"],
+  "Languages & Frameworks": ["Java", "J2EE", "Spring Boot", "Spring Security", "Spring AI", "Python", "FastAPI (basic)", "JavaScript"],
   "Architecture": ["MVC", "Microservices Architecture", "RESTful APIs"],
   "Data": ["MySQL", "JDBC", "Hibernate (JPA)"],
   "DevOps & Cloud": ["Docker", "Kubernetes", "CI/CD", "Terraform", "AWS"],

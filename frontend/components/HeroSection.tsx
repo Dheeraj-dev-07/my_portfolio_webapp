@@ -131,7 +131,7 @@ export default function HeroSection({ profile, onOpenResumeModal }: HeroSectionP
               transition={{ duration: 0.5, delay: 0.35 }}
               className="mt-6 flex flex-wrap gap-2"
             >
-              {['Java', 'Spring Boot', 'Spring Security', 'REST APIs', 'MySQL', 'React.js', 'Docker'].map((tech) => (
+              {['Java', 'Spring Boot', 'Spring Security', 'REST APIs', 'MySQL', 'Docker'].map((tech) => (
                 <span
                   key={tech}
                   className="inline-flex items-center gap-1 px-3 py-1 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60 shadow-xs"

@@ -13,6 +13,7 @@ import Footer from './Footer';
 import ScrollProgress from './ScrollProgress';
 import CommandPalette from './CommandPalette';
 import ResumeModal from './ResumeModal';
+import GitHubActivitySection from './GitHubActivitySection';
 import { getResumeUrl } from '../lib/api';
 import {
   Profile,
@@ -55,6 +56,7 @@ export default function PortfolioContainer({
         />
         <SkillsSection skills={skills} />
         <ExperienceCard experiences={experience} />
+        <GitHubActivitySection username="Dheeraj-dev-07" />
         <EducationCard education={education} />
         <CertificationsGrid certifications={certifications} />
         <AchievementsSection achievements={achievements} />
