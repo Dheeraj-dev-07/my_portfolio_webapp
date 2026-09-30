@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import { Github, Linkedin, Mail, MapPin, Heart } from 'lucide-react';
+import Image from 'next/image';
+import { Github, Linkedin, Mail, MapPin } from 'lucide-react';
 import { Profile } from '../types';
 
 interface FooterProps {
@@ -11,13 +11,24 @@ export default function Footer({ profile }: FooterProps) {
     <footer className="border-t border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-950/50 backdrop-blur-sm py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <div>
-            <h3 className="font-bold text-lg text-slate-900 dark:text-white">
-              {profile.name}
-            </h3>
-            <p className="text-sm text-slate-500 dark:text-slate-400 mt-1 flex items-center gap-1.5">
-              <MapPin className="w-4 h-4 text-brand-500" /> {profile.location}
-            </p>
+          <div className="flex items-center gap-3">
+            <div className="relative w-10 h-10 rounded-full overflow-hidden border border-slate-300 dark:border-slate-700 shrink-0">
+              <Image
+                src="/images/dheeraj-sisodiya.webp"
+                alt="Dheeraj Sisodiya"
+                width={40}
+                height={40}
+                className="w-full h-full object-cover object-top"
+              />
+            </div>
+            <div>
+              <h3 className="font-bold text-lg text-slate-900 dark:text-white leading-tight">
+                {profile.name}
+              </h3>
+              <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5 flex items-center gap-1">
+                <MapPin className="w-3.5 h-3.5 text-brand-500" /> {profile.location}
+              </p>
+            </div>
           </div>
 
           <div className="flex items-center gap-4">

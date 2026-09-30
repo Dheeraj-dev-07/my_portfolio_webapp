@@ -4,7 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   metadataBase: new URL('http://localhost:3000'),
   title: 'Dheeraj Sisodiya | Java Full Stack Developer Portfolio',
-  description: 'Java Full Stack Developer with experience in Spring Boot, Spring Security, REST APIs, MySQL, Docker, and React.js. View projects, skills, experience, and certifications.',
+  description: 'Java Full Stack Developer with experience in Spring Boot, Spring Security, REST APIs, MySQL, Docker, and React. View projects, skills, experience, and certifications.',
   keywords: ['Java Developer', 'Full Stack Developer', 'Spring Boot', 'Spring Security', 'FastAPI', 'Next.js', 'Indore', 'Dheeraj Sisodiya'],
   authors: [{ name: 'Dheeraj Sisodiya' }],
   openGraph: {
@@ -12,9 +12,22 @@ export const metadata: Metadata = {
     description: 'Java Full Stack Developer specializing in secure, production-ready Spring Boot microservices and modern web frontends.',
     type: 'website',
     url: 'https://dheerajsisodiya.dev',
+    images: [
+      {
+        url: '/images/dheeraj-sisodiya.png',
+        width: 576,
+        height: 1024,
+        alt: 'Dheeraj Sisodiya, Java Full Stack Developer',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Dheeraj Sisodiya | Java Full Stack Developer',
+    description: 'Java Full Stack Developer specializing in secure, production-ready Spring Boot microservices and modern web frontends.',
+    images: ['/images/dheeraj-sisodiya.png'],
   },
 };
-
 
 export default function RootLayout({
   children,

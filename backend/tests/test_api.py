@@ -1,6 +1,7 @@
 import pytest
 from httpx import AsyncClient, ASGITransport
 from app.main import app
+from app.core.db import db_manager
 
 @pytest.mark.asyncio
 async def test_get_profile():
@@ -10,7 +11,9 @@ async def test_get_profile():
     data = response.json()
     assert data["name"] == "Dheeraj Sisodiya"
     assert data["title"] == "Java Full Stack Developer"
-    assert "email" in data
+    assert data["email"] == "dheerajsisodiy1122@gmail.com"
+    assert data["linkedin"] == "https://www.linkedin.com/in/dheerajS05"
+    assert data["github"] == "https://github.com/Dheeraj-dev-07?tab=repositories"
 
 @pytest.mark.asyncio
 async def test_get_experience():
@@ -19,8 +22,9 @@ async def test_get_experience():
     assert response.status_code == 200
     data = response.json()
     assert isinstance(data, list)
-    assert len(data) >= 2
-    assert data[0]["company"] == "Augment Infotech"
+    assert len(data) == 2
+    assert data[0]["company"] == "Augment Infotech Pvt"
+    assert data[1]["company"] == "HulkHire Tech"
 
 @pytest.mark.asyncio
 async def test_get_skills():
@@ -28,8 +32,10 @@ async def test_get_skills():
         response = await ac.get("/api/skills")
     assert response.status_code == 200
     data = response.json()
-    assert "Languages & Frameworks" in data
-    assert "Java" in data["Languages & Frameworks"]
+    expected_categories = ["Frontend", "Backend", "DevOps", "Tools", "Concepts", "Soft Skills"]
+    assert list(data.keys()) == expected_categories
+    assert "Java" in data["Backend"]
+    assert "React" in data["Frontend"]
 
 @pytest.mark.asyncio
 async def test_get_education():
@@ -38,7 +44,7 @@ async def test_get_education():
     assert response.status_code == 200
     data = response.json()
     assert isinstance(data, list)
-    assert len(data) >= 3
+    assert len(data) == 3
 
 @pytest.mark.asyncio
 async def test_get_certifications():
@@ -47,7 +53,7 @@ async def test_get_certifications():
     assert response.status_code == 200
     data = response.json()
     assert isinstance(data, list)
-    assert len(data) >= 7
+    assert len(data) == 5
 
 @pytest.mark.asyncio
 async def test_get_achievements():
@@ -57,10 +63,28 @@ async def test_get_achievements():
     data = response.json()
     assert isinstance(data, list)
     assert len(data) >= 1
+    assert "link" in data[0]
 
 @pytest.mark.asyncio
-async def test_download_resume():
+async def test_get_resume_inline():
     async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as ac:
         response = await ac.get("/api/resume")
     assert response.status_code == 200
     assert response.headers["content-type"] == "application/pdf"
+    assert response.headers["content-disposition"].startswith("inline")
+    assert response.content.startswith(b"%PDF")
+
+@pytest.mark.asyncio
+async def test_get_resume_download():
+    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as ac:
+        response = await ac.get("/api/resume?download=true")
+    assert response.status_code == 200
+    assert response.headers["content-type"] == "application/pdf"
+    assert response.headers["content-disposition"].startswith("attachment")
+    assert response.content.startswith(b"%PDF")
+
+@pytest.mark.asyncio
+async def test_seed_version_logic():
+    # Verify fallback seed data contains seed_version == 2
+    seed_data = db_manager.load_seed_data()
+    assert seed_data.get("seed_version") == 2

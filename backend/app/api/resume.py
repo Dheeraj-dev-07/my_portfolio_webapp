@@ -1,19 +1,23 @@
-import os
-from fastapi import APIRouter, HTTPException, status
+import pathlib
+from fastapi import APIRouter, HTTPException, Query, status
 from fastapi.responses import FileResponse
 
 router = APIRouter(prefix="/resume", tags=["Resume"])
 
+RESUME_PATH = pathlib.Path(__file__).parent.parent / "data" / "Dheeraj_Sisodiya_Resume.pdf"
+
 @router.get("")
-async def download_resume():
-    resume_path = os.path.join(os.path.dirname(__file__), "..", "data", "Dheeraj_Sisodiya_Resume.pdf")
-    if not os.path.exists(resume_path):
+async def get_resume(download: bool = Query(False, description="Set to true to force file download")):
+    if not RESUME_PATH.exists():
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail="Resume PDF file not found"
         )
+    
+    disposition = "attachment" if download else "inline"
     return FileResponse(
-        path=resume_path,
+        path=RESUME_PATH,
         media_type="application/pdf",
-        filename="Dheeraj_Sisodiya_Resume.pdf"
+        filename="Dheeraj_Sisodiya_Resume.pdf",
+        content_disposition_type=disposition
     )
